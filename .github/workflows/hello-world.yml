@@ -4,7 +4,7 @@ jobs:
   Build:
     runs-on: ubuntu-latest
     container: gradle:6-jdk11
-    steps
+    steps:
       - name: Clone-down
         uses: actions/checkout@v2       
       - name: Build application
